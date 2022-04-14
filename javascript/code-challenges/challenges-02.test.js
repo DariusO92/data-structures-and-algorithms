@@ -54,7 +54,7 @@ For example, twoToThe([1,2,3]) returns [2,4,8] because 2 ^ 1 = 2, 2 ^ 2 = 4, and
 let array = [-1, -2, -3];
 const forLoopTwoToThe = (arr) => {
   // Solution code here...
-  let newArray = array.map(x => x * 2);
+  let newArray = for(let i = 0; i <)
 
   return newArray;
 };
