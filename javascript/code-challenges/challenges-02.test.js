@@ -8,11 +8,15 @@ Write a function named raisedToTheThird that takes in an array of numbers and re
 
 ------------------------------------------------------------------------------------------------ */
 
-const raisedToTheThird = (Arr) => {
+const raisedToTheThird = (arr) => {
   // Solution code here...
-  // Math.pow(,3);
+  let Arr = [2, 4, 5, -7, 0]
+  let newArr = Math.pow(Arr*3)
 
-  // let newArr = []
+
+   return newArr.push(arr);
+
+
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -51,10 +55,13 @@ You may choose to complete this challenge using a for loop, for...in syntax, or 
 
 For example, twoToThe([1,2,3]) returns [2,4,8] because 2 ^ 1 = 2, 2 ^ 2 = 4, and 2 ^ 3 = 8.
 ------------------------------------------------------------------------------------------------ */
-let array = [-1, -2, -3];
+
 const forLoopTwoToThe = (arr) => {
   // Solution code here...
-  let newArray = array.map(x => x * 2);
+  let newArray = [];
+  for (let i in arr) {
+    newArray.push(Math.pow(2,arr[i]));
+  }
 
   return newArray;
 };
@@ -67,6 +74,14 @@ Write a function named forEachTwoToThe that produces the same output as your for
 
 const forEachTwoToThe = (arr) => {
   // Solution code here...
+  let answer = [];
+  arr.forEach((num) => {
+    answer.push(2 ** num);
+  });
+  return answer;
+
+
+
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -77,6 +92,7 @@ Write a function named mapTwoToThe that produces the same output as your forLoop
 
 const mapTwoToThe = (arr) => {
   // Solution code here...
+  return arr.map(num => 2 ** num);
 };
 
 /* ------------------------------------------------------------------------------------------------
