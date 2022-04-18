@@ -21,13 +21,9 @@ CHALLENGE 2
 Write a function named addValues that, given an array of numbers as input, uses reduce to add the values in the array.
 
 ------------------------------------------------------------------------------------------------ */
-const addValues = (Arr) => {
-  // Solution code here...
-  let arr = [1, 2, 3, 4, 5];
-  let newArr = arr.reduce((currentValue, newValue) => {
-    return currentValue + newValue;
-  },0);
 
+const addValues = (arr) => {
+  // Solution code here...
 
 };
 
@@ -57,6 +53,9 @@ Note: You may not use the array's built-in length property.
 
 const countNumberOfElements = (arr) => {
   // Solution code here...
+  return arr.reduce((prev) => prev + 1, 0);
+
+
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -129,6 +128,10 @@ Note: You must use reduce for this challenge. You may not use the built-in .reve
 
 const reversedString = (str) => {
   // Solution code here...
+  return str.split('').reduce((acc, current) => {
+    return current + acc;
+
+  });
 };
 
 /* ------------------------------------------------------------------------------------------------
