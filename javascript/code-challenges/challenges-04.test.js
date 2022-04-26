@@ -23,6 +23,15 @@ function lower(str) {
 
 const updateAnimal = (arr, callback) => {
   // Solution code here...
+  arr.sort((a,b) => {
+    return a < b ? -1 :1;
+  });
+  let newArr = [];
+  for(let idx in arr) {
+    newArr.push(callback(arr[idx]));
+
+  }
+  return newArr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -35,17 +44,9 @@ For example: 'Cat' would come before 'apple'
 
 const sortNames = (arr) => {
   // Solution code here...
-  arr.sort((able, Bob) =>{
-    if (able.toLowerCase() < Bob.toLowerCase()) {
-      return -1;
-    }
-    if (able.toLowerCase() > Bob.toLowerCase()) {
-      return 1;
-    }
-    return sortNames;
-
-  }
-  );
+  return arr.sort((a,b) => {
+    return a < b ? -1 : 1;
+  });
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -58,6 +59,10 @@ HINT: Beware... JS default is "Lexical" ordering.
 
 const sortNumbers = (arr) => {
   // Solution code here...
+  return arr.sort((a,b) => {
+    return a-b;
+
+  });
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -70,6 +75,9 @@ HINT: Do it with a custom sort callback, not with using `.reverse()`. ;)
 
 const sortBackwards = (arr) => {
   // Solution code here...
+  return arr.sort((a,b) => {
+    return b-a;
+  });
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -84,6 +92,9 @@ For example, ['Alphabet', 'Zebra', 'alphabet', 'carrot'] is correctly sorted.
 
 const alphabetize = (arr) => {
   // Solution code here...
+  return arr.sort((a,b) => {
+    return a < b ? -1 : 1;
+  });
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -101,6 +112,9 @@ Here is an example of the input:
 
 const sortByPrice = (arr) => {
   // Solution code here...
+  return arr.sort((a,b) => {
+    return a.price - b.price;
+  });
 };
 
 /* ------------------------------------------------------------------------------------------------
