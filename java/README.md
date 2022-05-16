@@ -76,3 +76,7 @@ You will be working in the `codechallenges` subfolder for all of your algorithm 
 #### Live Tests
 
 Create a github action to automatically run all of your tests as you check in your code. These results should match your own, and will be readily found on the  **Actions** tab.
+
+
+## Table of Contents
+[array-reverse-Readme](array-reverse-README.md)
