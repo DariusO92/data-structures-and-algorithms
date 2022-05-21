@@ -79,5 +79,8 @@ Create a github action to automatically run all of your tests as you check in yo
 
 
 ## Table of Contents
-[array-reverse-Readme](array-reverse-README.md)
-[array-insert-shift-README](array-insert-shift-README.md)
+
+- [array-reverse-Readme](array-reverse-README.md)
+- [array-insert-shift-README](array-insert-shift-README.md)
+
+
