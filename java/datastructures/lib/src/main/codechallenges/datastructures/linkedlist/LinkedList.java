@@ -35,4 +35,44 @@ public class LinkedList {
       }
         return returnString;
     }
+
+   public void append(int value){
+    Node addToEnd = new Node(Value);
+    if(head == null){
+      head = addToEnd;
+      tail = addToEnd;
+   } else {
+      tail.next = addToEnd;
+      tail = addToEnd;
+    }
+
+    public insertBefore(int value, new int value){
+      Node addFirst = new Node(value);
+      if (head == null){
+        head = addFirst;
+        tail = addFirst;
+      } else{
+        Node temp = head;
+        head = addFirst;
+        head.next = temp;
+      }
+     }
+
+    public insertAfter(Node head, int postition, int value){
+      Node addSecond = new Node(value);
+      if (postition < 1)
+        System.out.println("wrong position");
+      if (postition == 1){
+        addSecond.next = head
+        head = addSecond;
+      } else {
+        while (postition != 0){
+          if (postition == 1){
+            Node addSecond = GetNode(value);
+            addSecond.next = head.next
+          }
+        }
+      }
+     }
 }
+
