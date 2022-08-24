@@ -74,5 +74,20 @@ public class LinkedList {
         }
       }
      }
+     public kthFromEnd(Node head, int n){
+      Node first = head;
+      Node second = head;
+      int count = 1;
+
+      for ( int i = 1; i <= n ; i++){
+        first = first.next();
+      }
+
+      while ( first != null){
+        first = first.next();
+        second = second.next();
+      }
+      return second;
+     }
 }
 
