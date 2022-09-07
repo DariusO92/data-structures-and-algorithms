@@ -1,6 +1,8 @@
 # Binary Tree
 
 ## Features
+
+### CC 15
 - Node
 Create a Node class that has properties for the value stored in the node, the left child node, and the right child node.
 Binary Tree
@@ -20,8 +22,17 @@ Contains
 Argument: value
 Returns: boolean indicating whether or not the value is in the tree at least once.
 
+### cc16
+- Write the following method for the Binary Tree class
+
+find maximum value
+Arguments: none
+Returns: number
+Find the maximum value stored in the tree. You can assume that the values stored in the Binary Tree will be numeric.
+
 ### Resources
 - https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/
 - https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
+- https://www.geeksforgeeks.org/find-maximum-or-minimum-in-binary-tree/
 - CLass lecture
 
