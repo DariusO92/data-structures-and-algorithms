@@ -1,6 +1,6 @@
 package Tree;
 
-public class BinaryTree2 {
+public class BinaryTree {
   Node root;
 
   BinaryTree() { root = null; }
@@ -29,6 +29,21 @@ public class BinaryTree2 {
     System.out.println(node.key + " ");
     inOrder(node.right);
   }
+  static int findMaxValue(Node node) {
+    if (node == null)
+      return Integer.MIN_VALUE;
+
+    int root = node.key;
+    int lroot = findMaxValue(node.left);
+    int rroot = findMaxValue(node.right);
+
+    if (lroot > root)
+      root = lroot;
+    if (rroot > root)
+      root = rroot;
+    return root;
+
+  }
 
 
 
@@ -50,5 +65,7 @@ public class BinaryTree2 {
     tree.postOrder();
     System.out.println("Inorder Traversal is");
     tree.inOrder();
+    System.out.println("Max value is: " +tree.findMaxValue(tree.root));
   }
 }
+
