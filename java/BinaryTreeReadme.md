@@ -43,5 +43,6 @@ Return: list of all values in the tree, in the order they were encountered
 - https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/
 - https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
 - https://www.geeksforgeeks.org/find-maximum-or-minimum-in-binary-tree/
+- https://www.digitalocean.com/community/tutorials/breadth-first-search-depth-first-search-bfs-dfs
 - CLass lecture
 
