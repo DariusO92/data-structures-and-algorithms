@@ -30,6 +30,15 @@ Arguments: none
 Returns: number
 Find the maximum value stored in the tree. You can assume that the values stored in the Binary Tree will be numeric.
 
+### CC17
+- Write a function called breadth first
+Arguments: tree
+Return: list of all values in the tree, in the order they were encountered
+
+#### CC 17 whiteBoard
+- ![CodeChallenge 17](https://user-images.githubusercontent.com/99936580/189551096-e1fa5028-a840-4a79-b255-59d1e6fde6c1.jpg)
+
+
 ### Resources
 - https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/
 - https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
