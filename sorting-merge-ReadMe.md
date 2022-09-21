@@ -12,3 +12,8 @@
  #### White Board
  
  - ![Lab27](https://user-images.githubusercontent.com/99936580/191393683-def252bc-8211-4e67-b4d3-822d220dfe81.jpg)
+
+
+#### Resources 
+
+- https://www.baeldung.com/java-merge-sort
