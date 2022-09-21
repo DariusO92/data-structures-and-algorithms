@@ -1,7 +1,7 @@
-# LAB 26  
+# Code Challenge 26  
 
 
-# Lab 27
+# Code Challenge 27
 
 ## Merge Sort
 
@@ -11,7 +11,7 @@
  
  #### White Board
  
- - ![Lab27](https://user-images.githubusercontent.com/99936580/191393683-def252bc-8211-4e67-b4d3-822d220dfe81.jpg)
+ - ![Code challenge 27](https://user-images.githubusercontent.com/99936580/191613287-2b0c790b-1351-4002-b6dd-325b24b7f03a.jpg)
 
 
 #### Resources 
