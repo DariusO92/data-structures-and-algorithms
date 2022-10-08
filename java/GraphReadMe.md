@@ -4,10 +4,6 @@
 - Implement your own Graph. 
 
 
-## Lab 37
--   [Graph Find Edges](FindEdges.md)
-
-
 ### Features
 - add node
 Arguments: value
@@ -32,7 +28,25 @@ Empty collection returned if there are no nodes
 Arguments: none
 Returns the total number of nodes in the graph
 0 if there are none
+## Lab 36
+
+### Features
+- breadth first
+Arguments: Node
+Return: A collection of nodes in the order they were visited.
+Display the collection
+
+
+#### White board
+- ![cc 36 (1)](https://user-images.githubusercontent.com/99936580/194731158-4a4aa4c3-cf99-491d-b0d7-99412f4f5318.jpg)
+
+
+
+## Lab 37
+-   [Graph Find Edges](FindEdges.md)
+
 
 #### Resources
 
 - https://www.codecademy.com/learn/graph-data-structures-java/modules/graphs-java/cheatsheet
+-https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/
