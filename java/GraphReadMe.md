@@ -28,3 +28,7 @@ Empty collection returned if there are no nodes
 Arguments: none
 Returns the total number of nodes in the graph
 0 if there are none
+
+#### Resources
+
+- https://www.codecademy.com/learn/graph-data-structures-java/modules/graphs-java/cheatsheet
