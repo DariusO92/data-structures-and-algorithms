@@ -38,8 +38,7 @@ public class Graphs<T extends Comparable<? super T>> implements Comparable<Graph
 
   public LinkedList<Edge<T>> getVertices(){
 
-
-    return null;
+    return adjacencyLists.get(numberOfVertices);
   }
 
   public int size(){
