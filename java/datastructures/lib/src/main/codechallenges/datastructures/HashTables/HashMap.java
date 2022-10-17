@@ -47,4 +47,32 @@ public class HashMap<K, V> {
 
     return null;
   }
+
+  public boolean contains(K key){
+  int index = hash(key);
+  Node<HashMap<K,V>> current = bucketArrayList.get(index).getHead();
+  while (current != null) {
+    if (current.value.getKey().equals(key)){
+      return true;
+    } else{
+      current = current.next;
+    }
+  }
+  return false;
+  }
+}
+
+
+  public String repeatedWord(String string){
+    String stringLower = string.toLowerCase();
+    String[] stringArray = stringLower.split("\\W+");
+    HashMap<String , Integer> hashMap = new HashMap<>(stringArray.length);
+    for (int i = 0; i < stringArray.length; i++){
+      if (hashMap.contains(stringArray[i])){
+        return stringArray[i];
+      } else{ hashMap.set(stringArray[i], i);
+    }
+
+  }
+    return  "No repeats.";
 }
